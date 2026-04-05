@@ -60,6 +60,9 @@ function handleError(){
 }
 
 window.onload = () => {
+    document.body.style.padding = '0';
+    document.body.style.margin = '0';
+
     const div = document.createElement("div");
     div.id = "container";
     div.style.height = "100vh";
